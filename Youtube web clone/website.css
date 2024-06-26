@@ -1,0 +1,71 @@
+.thumbnail {
+    width: 300px;
+    border-radius: 3px;
+    display: block;
+    margin-top: 20px;
+
+    
+}
+
+.search-box{ 
+    margin-bottom: 4;
+    display: block;
+    margin-left: 850px;
+    
+
+   
+
+
+
+}
+.video-tittle{font-family: Arial;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 0;
+    
+   
+ 
+
+}
+.video-author{
+    font-family:Arial;
+    margin-top: ;
+    margin-bottom: 0;
+    color: rgb(096,096,096);
+
+}
+.video-details{font-family:Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(70, 66, 66);
+
+}
+.div-preview{
+    display: inline-block;
+    vertical-align: top;
+
+}
+.v1{
+    display: inline-block;
+    width: 35px;
+    margin-right: 20px;
+    
+
+    
+}
+.v2{
+    display: inline-block;
+    width: 240px ;
+}
+.profile{
+    border-radius: 45px;
+    width: 50px;
+    margin-bottom: 40px;
+    
+    
+    
+}
+.v3{
+    margin-bottom: 10px;
+}
