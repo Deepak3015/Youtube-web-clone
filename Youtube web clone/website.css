@@ -15,6 +15,12 @@ p {
  body{
     margin : 0;
  }
+   .header_flex{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    justify-content: space-between;
+   }
 
   .thumbnail {
     width:100%
@@ -68,3 +74,22 @@ p {
   .video-author {
     margin-bottom: 4px;
   }
+
+  .middle_header{
+    background-color: aquamarine;
+    flex: 1;
+    max-width: 800px;
+    margin-left: 70px;
+    margin-right: 35px;
+
+  }
+  .right_header{
+    width: 200px;
+    background-color: aqua;
+    
+  }
+  .left_header{
+    width: 200px;
+    background-color: bisque;
+    
+}
