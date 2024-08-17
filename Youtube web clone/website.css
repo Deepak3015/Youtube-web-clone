@@ -65,7 +65,7 @@ p {
     margin-bottom: 12px;
   }
 
-  .video-author,
+  
   .video-stats {
     font-size: 12px;
     color: rgb(96, 96, 96);
@@ -81,6 +81,7 @@ p {
     max-width: 800px;
     margin-left: 70px;
     margin-right: 35px;
+    
 
   }
   .right_header{
@@ -89,7 +90,18 @@ p {
     
   }
   .left_header{
-    width: 200px;
-    background-color: bisque;
+    display: flex;
+    align-items: center;
     
+    width: 200px;
+   
+    
+}
+.hamburger-menu {
+  height: 20px;
+  margin-left: 25px;
+}
+.youtube-icon{
+  height: 20px;
+  margin-left: 25px;
 }
