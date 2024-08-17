@@ -27,7 +27,24 @@ p {
   }
 
   .search-bar {
-    display: block;
+    flex: 1;
+    height: 30px;
+    border-radius: 20px;
+    border-color: grey;
+    border-style: solid;
+    box-sizing: border-box;
+    
+    font-size: 16px
+
+    
+
+  }
+  .search-bar::placeholder{
+    font-size: 15px;
+    padding-left: 15px;
+    padding-top: 2px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
   }
 
   .video-title {
@@ -76,14 +93,14 @@ p {
   }
 
   .middle_header{
-    background-color: aquamarine;
-    flex: 1;
-    max-width: 800px;
+    flex : 1;
+    max-width: 700px;
     margin-left: 70px;
     margin-right: 35px;
-    
-
+    display: flex;
+    align-items: center;
   }
+
   .right_header{
     width: 200px;
     background-color: aqua;
@@ -94,9 +111,8 @@ p {
     align-items: center;
     
     width: 200px;
-   
-    
-}
+
+  }
 .hamburger-menu {
   height: 20px;
   margin-left: 25px;
@@ -104,4 +120,10 @@ p {
 .youtube-icon{
   height: 20px;
   margin-left: 25px;
+}
+.search-image{
+  height: 20px;
+}
+.voice-image{
+  height: 20px;
 }
