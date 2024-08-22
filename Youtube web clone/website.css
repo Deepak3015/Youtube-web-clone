@@ -1,9 +1,9 @@
 
 p {
-    font-family: Roboto, Arial;
+    
     margin-top: 0;
     margin-bottom: 0;
-  }
+    font-family: 'Roboto', Arial, sans-serif;}
 
   .video_grid {
     display: grid;
@@ -30,23 +30,37 @@ p {
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgb(237, 232, 232);
-
-
-
-
-   }
+    z-index: 100;}
+    
 
   .thumbnail {
     width:100%
   }
+  .timestamp{
+    background-color: black;
+    color: #ffffff;
+    position: absolute;
+    right: 2px;
+    bottom: 9px;
+    font-family: 'Roboto',Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    
+
+  }
   .search-container{
     display: flex;
-  align-items: center;
-  border: 2px solid lightgray;
-  border-radius: 25px;
-  padding: 5px;
-  width: 300px;
-  flex : 1;
+    align-items: center;
+    border: 2px solid lightgray;
+    border-radius: 25px;
+    padding: 5px;
+    width: 300px;
+    flex : 1;
     max-width: 700px;
     margin-left: 70px;
     margin-right: 35px;
@@ -65,16 +79,17 @@ p {
     height: 30px;
     outline: none;
     background-color: #f1f3f4;
+    font-family: 'Roboto', Arial, sans-serif; /* Ensure Roboto is applied */
+}
 
-    }
     
-  .search-bar::placeholder{
-    font-size: 15px;
-    padding-left: 10px;
-    padding-top: 2px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+.search-bar::placeholder {
+  font-size: 15px;
+  padding-left: 10px;
+  padding-top: 2px;
+  font-family: 'Roboto', Arial, sans-serif;
+}
 
-  }
   .search_button{
     background-color: transparent; /* Or another color to match the design */
     border: none;
@@ -123,6 +138,7 @@ p {
 
   .thumbnail-row {
     margin-bottom: 12px;
+    position: relative;
   }
 
   
