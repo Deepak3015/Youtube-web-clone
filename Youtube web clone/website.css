@@ -3,7 +3,8 @@ p {
     
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'Roboto', Arial, sans-serif;}
+    font-family: 'Roboto', Arial, sans-serif;
+    }
 
   .video_grid {
     display: grid;
@@ -34,13 +35,14 @@ p {
     
 
   .thumbnail {
-    width:100%
+    width:100%;
+    border-radius: 7px;
   }
   .timestamp{
-    background-color: black;
+    background-color: black;opacity: 0.75;
     color: #ffffff;
     position: absolute;
-    right: 2px;
+    right: 3.5px;
     bottom: 9px;
     font-family: 'Roboto',Arial;
     font-size: 12px;
@@ -50,6 +52,8 @@ p {
     padding-top: 4px;
     padding-bottom: 4px;
     border-radius: 2px;
+    border-radius: 5px;
+    z-index: 90;
     
 
   }
@@ -109,8 +113,8 @@ p {
     margin-top: 0;
     font-size: 14px;
     font-weight: 500;
-    line-height: 20px;
-    margin-bottom: 12px;
+    line-height: 18px;
+    margin-bottom: 5px;
   }
 
 
@@ -128,7 +132,7 @@ p {
 
   .video-info {
     display: inline-block;
-    width: 200px;
+    width: 300px;
   }
 
   .profile-picture {
@@ -149,6 +153,8 @@ p {
 
   .video-author {
     margin-bottom: 4px;
+    color: rgb(96, 96, 96);
+    
   }
 
   .middle_header{
